@@ -3,7 +3,7 @@
 #
 
 #name: OpenWrt JDC01 Imm-24.10
-name: OpenWrt JDC01 Imm-22.03
+name: OpenWrt JDC01 openwrt-22.03
 
 on:
   repository_dispatch:
@@ -17,7 +17,7 @@ env:
   DEVICE_NAME: JDCloud-01
   FILES: immortalwrt/files
   FEEDS_CONF: immortalwrt/feeds.conf.default
-  CONFIG_FILE: immortalwrt/.config.JDC01-22.03-imm.bak
+  CONFIG_FILE: immortalwrt/.config.JDC01-22.03-openwrt.bak
   DIY_P1_SH: immortalwrt/diy-part1.sh
   DIY_P2_SH: immortalwrt/diy-part2.sh
   UPLOAD_BIN_DIR: false

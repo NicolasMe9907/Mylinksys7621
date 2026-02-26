@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.68.1/g' package/base-files/files/bin/config_generate
 
 # -----------------強制給予 uci-defaults 腳本執行權限，防止雲端編譯權限丟失-------------------------
-chmod +x files/etc/uci-defaults/99-physical-sovereignty
+chmod +x files/etc/uci-defaults/99-jdc01-sovereignty
 
 #------------------替换GoLang-----------------------
 echo '替换golang到1.26x'

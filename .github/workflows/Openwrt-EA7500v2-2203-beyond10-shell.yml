@@ -2,8 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-#name: OpenWrt EA7500v2-22.03-beyond10-shell
-name: 停止编译
+name: OpenWrt EA7500v2-22.03-beyond10-shell
 
 on:
   repository_dispatch:
